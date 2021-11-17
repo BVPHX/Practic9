@@ -1,0 +1,19 @@
+﻿<Window x:Class="Practic9.AbonentDataInput"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Practic9"
+        mc:Ignorable="d"
+        Title="Ввод информации об абоненте" Height="318" Width="347" WindowStyle="ToolWindow" ResizeMode="CanMinimize">
+    <Grid>
+        <Label Content="Номер телефона:" HorizontalAlignment="Left" Margin="10,51,0,0" VerticalAlignment="Top"/>
+        <Label Content="ФИО:" HorizontalAlignment="Left" Margin="76,92,0,0" VerticalAlignment="Top"/>
+        <Label Content="Адрес:" HorizontalAlignment="Left" Margin="69,133,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="phoneNumberInput" HorizontalAlignment="Left" Height="23" Margin="126,54,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="nameInput" HorizontalAlignment="Left" Height="23" Margin="126,92,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="addressInput" HorizontalAlignment="Left" Height="23" Margin="126,136,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Button Content="Добавить абонента" HorizontalAlignment="Left" Margin="109,215,0,0" VerticalAlignment="Top" Width="114" Click="AddAbonent_Click"/>
+
+    </Grid>
+</Window>
